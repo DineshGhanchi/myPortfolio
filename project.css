@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    /* outline: 1px solid black; */
+}
+body{
+    height: 100vh;
+    background-image: url(https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+}
+.headFirst{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #b4245d;
+   height: 40px;
+   padding: 0 2rem;
+   color: white;
+}
+.headFirsLeft{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+.headtext{
+    font-size: .8rem;
+}
+.citySearch{
+    background-color: white;
+    border-radius: 5px;
+}
+.citySearch input{
+    height: 2rem;
+    width: 12rem;
+    margin-left: .8rem;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.citySearch i{
+    color: rgba(0, 0, 0, 0.466);
+    width: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.headFirstRight{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.Review span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.Review i{
+    font-size: 20px;
+}
+
+.phone i{
+     color: white;
+     font-size: 22px;
+}
+.phone span{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* ============ headSecond================= */
+.headSecond{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 46, 119);
+    height: 50px;
+    padding: 0 2rem;
+    color: white;
+}
+/* .logotext{
+    margin-bottom: 7px;
+} */
+.headSecondLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.logotext .logotext1,.logotext3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.logotext .logotext2{
+    font-size: 17px;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    /* position: relative;
+    right: 7rem; */
+    /* width: 450px; */
+}
+.navList li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.headSecondRight{
+    display: flex;
+    align-items: center;
+    gap: 3rem;    
+}
+.headSecondRight > div > button{
+    background-color: #b4245d;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.searchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4245d;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50px;
+}
+
+
+
+/* ==================== section-first ======================== */
+
+.searchType{
+    width: 100%;
+    height: 80vh;
+    /* background-image: url(https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+.shaddow{
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 49%, rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+.selectTypeBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.selectTypeBox h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.selectTypeBox h4{
+    margin-top: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.selectType{
+    /* background-color: white; */
+    margin-top: 10px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+}
+#input2{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#input2 input{
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 33rem;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+
+#searchIcon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+}
+#searchIcon2 > i{
+    font-size: 20px;
+    color: rgb(231, 46, 119);
+    /* height: 3rem;
+    width: 3rem; */
+}
+.selectType button{
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(231, 46, 119);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.PopularSearch{
+    margin:15px 0;
+    color: white;
+}
+.PopularSearch span:nth-child(1){
+    font-size: 16px;
+    font-weight: 600;
+}
+.PopularSearch span{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/* ===============================section-2========================= */
+.gallery-wrap{
+    background-color: rgb(241, 225, 225);
+}
+.gallery1{
+    width: 100%;
+    padding-top: 20px;
+}
+.gallery{
+    width: 90%;
+    display: flex;
+    overflow-x: scroll;
+}
+#headText{
+    margin-left: 4.5rem;
+    color: rgb(122, 116, 116);
+}
+ .gallery div{ 
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    padding: 1rem;
+    flex: none;
+}
+.gallery div img{
+    width: 100%;
+} 
+.weddingImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weddingImg #rightscroll, #leftscroll{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(231, 46, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 19px;
+    color: white;
+}
+#rightscroll{
+    margin-right: -1.8rem;
+    z-index: 100;
+    cursor: pointer;
+}
+#leftscroll{
+    margin-left: -1.8rem;
+    z-index: 100;
+    cursor: pointer;
+}
+
+/* ================================section-3============================== */
+.section-3 h2{
+    margin-left: 4rem;
+    color: rgb(122, 116, 116);
+    margin-top: 1.5rem;
+    margin-bottom: .5rem; 
+    display: inline-block;  
+}  
+.wedding-catagery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+ .out-box{
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 10px 0;
+ } 
+ .textBox{
+    padding: 0 15px;
+ }
+ .cat-Name{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 5px;
+ }
+ .cat-Name h3{
+    color: rgb(90, 82, 82);
+ }
+ .list span{
+   font-size: 14px;
+ }
+ .out-box1{
+    background-color: rgb(210, 229, 236);
+}
+.out-box2{
+    background: rgb(241, 164, 177);
+}
+.out-box3{
+    background: rgb(243, 133, 133);
+}
+.out-box4{
+    background: rgb(147, 206, 203) ;
+}
+.out-box5{
+    background: rgb(170, 181, 192);
+}
+.out-box6{
+    background: rgb(120, 179, 120) ;
+}
+.imgBox img{
+    clip-path: ellipse(99% 140px at 100% 50%);
+}
+
+.view-all{
+    display: flex;
+    justify-content: flex-end;
+}
+.view-all h4{
+    margin-right: 50px;
+    color: rgb(81, 81, 211);
+    cursor: pointer;
+}
+
+
+/* ==============================section-4============================== */
+
+.giftAndShop{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.headh2{
+    position: relative;
+    left: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.headh2 h2{
+    color: rgb(122, 116, 116);
+}
+.container{
+    /* width: 90%; */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;    
+}
+.card{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+.container .card .product-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.container .card .product-img img{
+   width: 100%;
+   border-radius: 8px;
+} 
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.product-info h4{
+    color: rgb(122, 116, 116);
+}
+.detail div:first-child{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+#current-rate{
+    font-weight: 600;
+}
+#pri-rate{
+    color: rgb(122, 116, 116);
+    text-decoration: line-through;
+    font-size: 13px;
+}
+#offer{
+    color: #359B44;
+    background: #E5F7EE;
+    font-size: 13px;
+}
+#rating{
+    color: white;
+    background: #49a316;
+    width: 50px;
+    border-radius: 3px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.add-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.add-cart span{
+    color: rgb(22, 61, 236);
+    font-size: 13px;
+}

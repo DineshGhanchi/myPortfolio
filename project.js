@@ -1,0 +1,2 @@
+
+let sliderArray = ["wedImg1.avif","https://stylesatlife.com/wp-content/uploads/2022/12/simple-flower-wedding-stage-decoration.jpg","https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.meltingflowers.com%2Fblogs%2F2018%2F11%2F06%2Freception-stage-decoration-with-latest-props%2F&psig=AOvVaw0hwjajE1AOrXFy0pn2ssoK&ust=1693931509450000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPizseWwkYEDFQAAAAAdAAAAABAJ","wedImg1.avif","wedImg2.avif"];
